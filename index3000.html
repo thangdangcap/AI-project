@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TenderMate AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>TenderMate AI</h1>
+
+        <div class="upload-card">
+            <input type="file" id="pdfFile" accept=".pdf">
+            <button onclick="analyzeTender()">
+                Analyze Tender
+            </button>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>AI is analyzing the tender documents...</p>
+        </div>
+
+        <div id="results" class="hidden">
+
+            <div class="card">
+                <h2>Tender Summary</h2>
+                <p id="summary"></p>
+            </div>
+
+            <div class="card">
+                <h2>Eligibility Check</h2>
+                <p id="eligibility"></p>
+            </div>
+
+            <div class="card">
+                <h2>Required Documents</h2>
+                <ul id="documents"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Risk Analysis</h2>
+                <ul id="risks"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Submission Deadline</h2>
+                <p id="deadline"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
