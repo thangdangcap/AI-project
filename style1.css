@@ -37,7 +37,7 @@ h1{
     margin-bottom:40px;
 }
 
-/* Upload Card */
+
 
 .upload-card{
     background:rgba(255,255,255,0.08);
@@ -92,7 +92,7 @@ button:hover{
     transform:scale(1.05);
 }
 
-/* Results Grid */
+
 
 #results{
 
@@ -146,7 +146,7 @@ button:hover{
     margin-bottom:8px;
 }
 
-/* Loading */
+
 
 .loading{
 
@@ -180,13 +180,13 @@ button:hover{
     color:#e2e8f0;
 }
 
-/* Hidden */
+
 
 .hidden{
     display:none;
 }
 
-/* Animations */
+
 
 @keyframes spin{
 
